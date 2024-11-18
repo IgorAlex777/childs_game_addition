@@ -1,7 +1,8 @@
-package com.cmex.gamecountingforchild5to10
+package com.cmex.gamecountingforchild5to10.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.cmex.gamecountingforchild5to10.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
