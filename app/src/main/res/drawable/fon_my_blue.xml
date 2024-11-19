@@ -7,10 +7,10 @@
             <gradient
                 android:type="radial"
                 android:gradientRadius="20%"
-                android:startColor="@color/whatsapp"
+                android:startColor="@color/light_blue"
                 android:centerX="0.5"
                 android:centerY="0.5"
-                android:endColor="@color/linen" />
+                android:endColor="@color/grey" />
 
             <corners android:radius="10dp" />
         </shape>
@@ -20,11 +20,11 @@
         android:bottom="5dp">
         <shape android:shape="rectangle"  >
             <corners android:radius="10dip" />
-            <stroke android:width="0dip" android:color="@color/red1" />
+            <stroke android:width="0dip" android:color="@color/blue_sky" />
             <gradient
                 android:angle="-90"
-                android:startColor="@color/yellow_light"
-                android:endColor="@color/yellow" />
+                android:startColor="@color/blue_dark"
+                android:endColor="@color/blue_sky" />
         </shape>
     </item>
 

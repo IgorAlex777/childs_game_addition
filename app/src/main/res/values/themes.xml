@@ -6,4 +6,28 @@
     </style>
 
     <style name="Theme.GameCountingForChild5To10" parent="Base.Theme.GameCountingForChild5To10" />
+    <style name="LevelTextView">
+       <item name="android:padding">10dp</item>
+       <item name="android:textSize">18sp</item>
+       <item name="android:textStyle">bold</item>
+       <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        </style>
+    <style name="styleNumberTextView">
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="styleAnswers">
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">40sp</item>
+
+        <item name="android:background">@drawable/fon_my_blue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+
+    </style>
 </resources>

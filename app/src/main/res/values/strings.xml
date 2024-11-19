@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Игра счет для детей 5_10 лет</string>
+    <string name="text_game">
+        <big><u>  <b> <font color="#FF6200EE">Состав числа!</font></b></u></big>\n\n
+
+        <b><big><font color="#FF00000">Правила игры: </font></big></b> <i> перед вами будет три фигуры,
+        две снизу и одна сверху, в двух из них будут числа.
+        Необходимо, чтобы сумма чисел из двух нижних фигур была равна числу в верхней фигуре,
+        для этого нужно вставить недостающее число.</i>\n\n
+        <big><b><font color="#FF00000">Пример:  </font></b></big> <i> в верхнем круге число 7,
+        в одном из нижних знак вопроса, а в другом число 4.
+        Значит на месте вопросительного знака должно быть число 3, потому что 3+4=7</i></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_easy">ЛЕГКИЙ</string>
+    <string name="text_middle">СРЕДНИЙ</string>
+    <string name="text_hard">ТЯЖЕЛЫЙ</string>
+    <string name="text_level_title">Выбор уровня игры</string>
+    <string name="count_right_answers">количество правильных ответов: -%s</string>
 </resources>
