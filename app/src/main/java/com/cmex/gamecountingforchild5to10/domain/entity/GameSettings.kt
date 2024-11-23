@@ -1,8 +1,13 @@
 package com.cmex.gamecountingforchild5to10.domain.entity
 
+import android.os.Parcel
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
 data class GameSettings(
-    private val maxSum:Int,
-    private val minCountRightAnswer:Int,
-    private val minPercentRightAnswer:Int,
-    private val gameTimeSec:Int
-)
+     val maxSum:Int,
+    val minCountRightAnswer:Int,
+    val minPercentRightAnswer:Int,
+    val gameTimeSec:Int
+) :Parcelable

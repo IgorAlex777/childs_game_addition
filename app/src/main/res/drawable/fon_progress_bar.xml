@@ -6,6 +6,14 @@
         <solid android:color="@color/black"/>
     </shape>
 </item>
+    <item android:id="@android:id/secondaryProgress">
+        <scale android:scaleWidth="100%">
+            <shape android:shape="rectangle">
+                <corners android:radius="6dp"/>
+                <solid android:color="@color/blue_sky"/>
+            </shape>
+        </scale>
+    </item>
     <item android:id="@android:id/progress">
         <scale android:scaleWidth="100%">
         <shape android:shape="rectangle">
@@ -14,4 +22,6 @@
         </shape>
         </scale>
     </item>
+
+
 </layer-list>

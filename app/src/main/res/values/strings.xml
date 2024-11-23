@@ -16,5 +16,14 @@
     <string name="text_middle">СРЕДНИЙ</string>
     <string name="text_hard">ТЯЖЕЛЫЙ</string>
     <string name="text_level_title">Выбор уровня игры</string>
-    <string name="count_right_answers">количество правильных ответов: -%s</string>
+    <string name="count_right_answers"> правильных ответов: -%s, min-%s</string>
+    <string name="right_answers">ответили на %2d, минимальное количество %2d</string>
+    <string name="percent_answers">процент правильных ответов: %2d, минимальное процент %2d</string>
+    <string name="continue_calculation">продолжить</string>
+    <string name="stop_calculation">выйти</string>
+    <string name="check_box_text">больше не показывать</string>
+    <string name="text_victory">МОЛОДЕЦ!!!</string>
+    <string name="text_no_luck">Не удача.</string>
+
+
 </resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+   <item
+        android:top="25dp"
+        android:left="25dp">
+        <shape>
+            <solid android:color="@color/whatsapp"/>
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+    <item
+        android:top="15dp"
+        android:left="15dp"
+        android:right="20dp"
+        android:bottom="20dp">
+        <shape android:shape="rectangle"  >
+            <corners android:radius="10dip" />
+
+         <solid android:color="@color/green"/>
+        </shape>
+    </item>
+    <item
+        android:right="45dp"
+        android:bottom="45dp">
+        <shape android:shape="rectangle"  >
+            <corners android:radius="10dip" />
+
+            <solid android:color="@color/lime"/>
+        </shape>
+    </item>
+   <!-- <item  android:top="1dp"
+        android:left="1dp">
+      <shape>
+          <corners android:radius="10dip" />
+        <gradient
+            android:type="radial"
+            android:gradientRadius="150%"
+            android:startColor="@color/white"
+            android:centerX="0.1"
+            android:centerY="0.1"
+            android:endColor="@android:color/transparent" />
+    </shape></item>-->
+</layer-list>

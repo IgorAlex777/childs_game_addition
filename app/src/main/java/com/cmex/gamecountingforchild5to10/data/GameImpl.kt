@@ -20,11 +20,11 @@ object GameImpl:RepositoryGame {
             }
 
             Level.EASY->{
-                GameSettings(10,15,80,60)
+                GameSettings(10,20,80,60)
             }
 
             Level.MIDDLE->{
-                GameSettings(20,20,80,45)
+                GameSettings(20,25,80,45)
             }
 
             Level.HARD->{
